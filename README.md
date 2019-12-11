@@ -25,6 +25,6 @@ orderservice.properties, you can create application.properties file to contain c
 As you might have guessed you can have profile specific files like application-dev.properties, application-prod.properties.
 
 
-#################################################
+###################################################################################################################################
 Usually in SpringBoot application we configure properties in application.properties. But while using Spring Cloud Config Server we use bootstrap.properties or bootstrap.yml file to configure the URL of Config Server and Spring Cloud Config Client module will take care of starting the application by fetching the application properties from Config Server.
-##################################################
+#####################################################################################################################################
